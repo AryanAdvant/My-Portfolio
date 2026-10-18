@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.portfolio{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: clamp(9rem, 70vw, 50rem);
+  line-height: 0.8;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  height: 350px;
+  width: max-content;
+  transform: scaleY(1.5);
+  transform: scaleX(0.55);
+  margin: -100px auto auto -550px;
+  background: linear-gradient(tobottom, rgba(255, 0, 0, 0.733),darkred);
+  background-clip: text;
+  -web-kit-background-clip: text;
+  -web-kit-text-fill-color: transparent;
+  display: inline-block;
+  color: white;
+}
+
+*{
+    scrollbar-width: none;
+}
+
 body{
     background: black;
 }
+
+.MicroHeaders{
+    width: 150px;
+}
+
+.Heading{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#right{
+    margin-right: 0px;
+    margin-left: auto;
+    border-radius: 35px;
+    width: 270px;
+    color: white;
+}
+
+#left{
+    height: 50px;
+    color: white;
+}
+
+#main-header{
+    margin:5px auto 0px 10px;
+}
+
+#sub-header{
+    margin: 0px auto auto 35px;
+}
+
+#status{
+    margin: 15px auto auto 15px;
+}
+
