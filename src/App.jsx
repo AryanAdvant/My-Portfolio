@@ -9,12 +9,12 @@ function App()
         <div className = "MicroHeaders" id="right"><p id="status">Currently Working in Evalix</p></div>
       </div>
       <div className = "portfolio">
-      <p id="portfolio-title">PORTFOLIO</p>
-      <div className = "content">
-        <div className = "content-branches"></div>
-        <div className = "content-branches"></div>
-        <div className = "content-branches"></div>
-      </div>
+        <p id="portfolio-title">PORTFOLIO</p>
+        <div className = "content">
+          <div className = "content-branches">hello</div>
+          <div className = "content-branches">he</div>
+          <div className = "content-branches">hu</div>
+        </div>
       </div>
       
     </>

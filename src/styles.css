@@ -25,6 +25,23 @@
     margin-left: -10px;
 }
 
+.content{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1100px;
+    background: transparent;
+    color: white;
+    font-size: 100px;
+}
+
+
+.content-branches{
+    border: 1px solid red;
+    color: white;
+    width: 450px;
+    height: 540px;
+}
 
 
 *{
