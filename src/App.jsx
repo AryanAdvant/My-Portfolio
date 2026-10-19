@@ -1,4 +1,5 @@
 import "./styles.css"
+import mysticker from "./assets/mysticker.png"
 
 function App()
 {
@@ -24,6 +25,7 @@ function App()
             </pre>
           </div>
           <div className = "content-branches" id="port-image">
+            <img src = {mysticker} alt="Mysticekr" />
           </div>
           <div className = "content-branches">
             <p className = "exp">

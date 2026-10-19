@@ -52,13 +52,13 @@
     justify-content: center;
     background: transparent;
     overflow: visible;
+    margin-top: -180px;
+    width: 1300px;
 }
 
 #port-image img{
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    width: 1100px;
+    height: 900px;
     background: transparent;
     mix-blend-mode: screen;
 }
@@ -124,7 +124,7 @@ body{
     border-radius: 35px;
     width: 270px;
     color: white;
-    border: 1px solid white;
+    border: 1px solid red;
 }
 
 #left{
@@ -135,6 +135,7 @@ body{
 
 #main-header{
     margin:5px auto 0px 10px;
+    color: red;
 }
 
 #sub-header{
@@ -168,4 +169,6 @@ body{
 
 .num{
     font-size: 120px;
+    background: none;
+    -webkit-text-fill-color: red;
 }
