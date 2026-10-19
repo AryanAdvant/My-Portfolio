@@ -57,7 +57,7 @@
 }
 
 #port-image img{
-    width: 1100px;
+    width: 1500px;
     height: 900px;
     background: transparent;
     mix-blend-mode: screen;
@@ -103,6 +103,7 @@
 
 *{
     scrollbar-width: none;
+    color: white;
 }
 
 body{
@@ -171,4 +172,101 @@ body{
     font-size: 120px;
     background: none;
     -webkit-text-fill-color: red;
+}
+
+.seperator{
+    margin-top: 70px;
+    border: none;               
+    height: 1px;               
+    background-color: rgba(255, 0, 0, 0.473);
+}
+
+#hr-pro-title{
+    width: 60%;
+    margin: 27px 10px auto 20px;
+    border: none;               
+    height: 1px;               
+    background-color: grey;
+}
+
+#completed-pro{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#Projects-title{
+    display: flex;
+}
+
+#view-all{
+    margin-top: 10px;
+    display: flex;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+
+#arrow{
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 40px;
+}
+
+#project-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-card{
+    border-radius: 5px;
+    height: 350px;
+    width: 400px;
+    cursor: pointer;
+}
+
+.card-des{
+    margin-top: 0px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.pro-card img{
+    border: 1px solid grey;
+    width: 400px;
+    height: 250px;
+}
+
+.card-num{
+    font-size: 60px;
+    margin-top: -50px;
+    margin-left: 10px;
+    background: none;
+    -webkit-text-fill-color: red;
+    color: red;
+}
+
+.main-card-title{
+    font-size:20px;
+}
+
+.sub-card-title{
+    margin-top: -15px;
+}
+
+.card-arrow{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.card-main-title{
+    margin-left: -50px;
+}
+
+#education-seperator{
+    margin-top: 20px;
 }

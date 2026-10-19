@@ -1,12 +1,14 @@
 import "./styles.css"
-import mysticker from "./assets/mysticker.png"
-import { First } from "./First.jsx"
+import React from "react"
+import First from "./First"
+import Projects from "./Projects"
 
 function App()
 {
   return(
     <>
       <First />
+      <Projects />
     </>
   )
 }
