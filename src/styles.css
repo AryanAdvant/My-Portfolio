@@ -41,10 +41,26 @@
     z-index: 1;
 }
 
-
 .content-branches{
     width: 450px;
     height: 640px;
+}
+
+#port-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    overflow: visible;
+}
+
+#port-image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: transparent;
+    mix-blend-mode: screen;
 }
 
 #Hello{
@@ -84,7 +100,6 @@
     font-size: 30px;
     letter-spacing: 0em;
 }
-
 
 *{
     scrollbar-width: none;
