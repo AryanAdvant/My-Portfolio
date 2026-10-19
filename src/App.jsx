@@ -1,4 +1,5 @@
 import "./styles.css"
+import sticker from "./assets/sticker_clean-1.svg"
 
 function App()
 {
@@ -24,6 +25,7 @@ function App()
             </pre>
           </div>
           <div className = "content-branches" id="port-image">
+            <img src={sticker} alt="Portfolio sticker" />
           </div>
           <div className = "content-branches">
             <p className = "exp">
@@ -50,7 +52,5 @@ function App()
     </>
   )
 }
-
-
 
 export default App
