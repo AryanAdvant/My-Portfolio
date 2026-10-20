@@ -270,3 +270,16 @@ body{
 #education-seperator{
     margin-top: 20px;
 }
+
+.edu-container{
+    display: flex;
+    border: 1px solid white;
+    height: 700px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.details{
+    border: 1px solid red;
+    width: 500px;
+}
