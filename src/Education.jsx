@@ -12,54 +12,69 @@ export function Education(){
                 <div className = "details education">
                     <p className = "edu-title">Education & Skills</p>
                     <div className="edu-sub-container">
-                        <p>Education</p><hr />
+                        <p className = "edu-sub-title">Education</p><hr className = "edu-line" />
                     </div>
                     <div className="education-details">
-                        <p>Diploma CM</p><p>pursuing 2024-2027</p> 
-                        <p>CBSE</p><p> completed - 2024</p>
+                        <div className="flex-date1 size20-bebas"><p>Diploma CM</p><p className="main-date">pursuing 2024-2027</p></div> <p className = "edu-des">SVCP - Sou. Venutai Chavan Polytechnic</p>
+                        <div className="flexdate2 size20-bebas"><p>CBSE 10th</p><p className = "main-date"> completed - 2024</p></div><p className = "edu-des">Sinhgad Spring Dale School</p>
                     </div>
+                    <hr className = "seperator edu-sep" />
 
-                    <p>Skills</p>
-                    <div className = "skills">HTML & CSS</div>
-                    <div className = "skills">Javascript</div>
-                    <div className = "skills">React</div>
-                    <div className = "skills">Nodejs & Expressjs</div>
-                    <div className = "skills">SQL</div>
-                    <div className = "skills">MongoDB</div>
-                    <div className = "skills">C</div>
-                    <div className = "skills">C++</div>
-                    <div className = "skills">Java</div>
-                    <div className = "skills">Python</div>
+                    <div className = "edu-sub-container">
+                        <p className = "size30-bebas skill-title">Skills</p><hr className = "edu-line skill-line" />
+                    </div>
+                    <div className = "main-skill-container">
+                        <div className="skill-container1">
+                        <div className = "skills"><p class="align-texth">HTML & <p className="align-textcss">CSS</p></p></div>
+                        <div className = "skills"><p className = "align-textjs">Javascript</p></div>
+                        <div className = "skills"><p className = "align-textr">React</p></div>
+                        <div className = "skills"><p className = "align-textne">Node & Express</p></div>
+                        <div className = "skills"><p className = "align-texts">SQL</p></div><br />
+                    </div>
+                    <div className="skill-container1">
+                        <div className = "skills"><p className = "align-textm">MongoDB</p></div>
+                        <div className = "skills"><p className = "align-textc">C</p></div>
+                        <div className = "skills"><p className = "align-textcpp">C++</p></div>
+                        <div className = "skills"><p className = "align-textj">Java</p></div>
+                        <div className = "skills"><p className = "align-textpy">Python</p></div>
+                    </div>
+                    </div>
+                    <hr className = "seperator skill-sep" />
 
-
-                    <p>Core Subjects</p>
-                    <div className = "core">Digital Techniques</div>
-                    <div className = "core">Data Structure using C</div>
-                    <div className = "core">OOP</div>
-                    <div className = "core">Microprocessor 8086</div>
-                    <div className = "core">OS</div>
-                    <div className = "core">Software Engineering</div>
-                    <div className = "core">Software Testing</div>
-                    <div className = "core">Data Analytics</div>
-                    <div className = "core">Machine Learning</div>
+                    <div className="edu-sub-container">
+                        <p className = "size30-bebas core-sub">Core Subjects</p>< hr className = "edu-line core-line"/>
+                    </div>
+                    <div className = "core-container cc1">
+                        <div className = "core"><p className = "alignc-textdte alignc">Digital Techniques</p></div>
+                        <div className = "core"><p className = "alignc-textdsu alignc">Data Structure using C</p></div>
+                        <div className = "core"><p className = "alignc-textoop alignc">OOP</p></div>
+                        <div className = "core"><p className = "alignc-textmic alignc">Microprocessor 8086</p></div>
+                    </div>
+                    <div className = "core-container">
+                        <div className = "core"><p className = "alignc-textosy alignc">OS</p></div>
+                        <div className = "core"><p className = "alignc-textste alignc">Software Engineering</p></div>
+                        <div className = "core"><p className = "alignc-textsen alignc">Software Testing</p></div>
+                        <div className = "core"><p className = "alignc-textdan alignc">Data Analytics</p></div>
+                        <div className = "core"><p className = "alignc-textml alignc">Machine Learning</p></div>
+                    </div>
                 </div>
                 <div className = "details experience">
-                    <p>Experience</p>
-                    <div className = "exp-cotainer">
+                    <p className = "exp-title exp-bebas">Experience</p>
+                    <div className = "exp-container">
                         <div className = "exp-num">01</div>
-                        <div className = "exp-circle"><FontAwesomeIcon icon={faOpenai} /></div>
-                        <div className="exp-main-title">Naviatech</div>
+                        <div className = "exp-circle chat-circle"><FontAwesomeIcon icon={faOpenai} className = "font-icon ichat" /></div>
+                        <div className="exp-main-title bebas">Naviatech</div>
                         <div className = "exp-description">Learnt Machine Learning in Naviatech</div>
                     </div>
-                    <div className = "exp-cotainer">
+                    <div className = "exp-container">
                         <div className = "exp-num">02</div>
-                        <div className = "exp-circle"><FontAwesomeIcon icon={faChrome} /></div>
+                        <div className = "exp-circle chrome-circle"><FontAwesomeIcon icon={faChrome} className = "font-icon ichrome"  /></div>
                         <div className="exp-main-title">MIOPL</div>
                         <div className = "exp-description">Experience to build a full stack website at Maharashtra Informatics Opc Pvt Ltd</div>
                     </div>
-                    <div className = "exp-cotainer">
+                    <div className = "exp-container">
                         <div className = "exp-num">03</div>
-                        <div className = "exp-circle"><FontAwesomeIcon icon={faBug} /></div>
+                        <div className = "exp-circle bug-circle"><FontAwesomeIcon icon={faBug} className = "font-icon ibug"  /></div>
                         <div className="exp-main-title">Evalix</div>
                         <div className = "exp-description">Currently working as an intern in evalix working as a tester and in development</div>
                     </div>
