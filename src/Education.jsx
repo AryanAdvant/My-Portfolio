@@ -63,20 +63,20 @@ export function Education(){
                     <div className = "exp-container">
                         <div className = "exp-num">01</div>
                         <div className = "exp-circle chat-circle"><FontAwesomeIcon icon={faOpenai} className = "font-icon ichat" /></div>
-                        <div className="exp-main-title bebas">Naviatech</div>
-                        <div className = "exp-description">Learnt Machine Learning in Naviatech</div>
+                        <div className="exp-main-title bebas nbebas">Naviatech<div className = "exp-description">Learnt Machine Learning in Naviatech</div></div>
+                        
                     </div>
                     <div className = "exp-container">
                         <div className = "exp-num">02</div>
                         <div className = "exp-circle chrome-circle"><FontAwesomeIcon icon={faChrome} className = "font-icon ichrome"  /></div>
-                        <div className="exp-main-title">MIOPL</div>
-                        <div className = "exp-description">Experience to build a full stack website at Maharashtra Informatics Opc Pvt Ltd</div>
+                        <div className="exp-main-title mbebas bebas">MIOPL<div className = "exp-description">Experience to build a full stack website at Maharashtra Informatics Opc Pvt Ltd</div></div>
+                        
                     </div>
                     <div className = "exp-container">
                         <div className = "exp-num">03</div>
                         <div className = "exp-circle bug-circle"><FontAwesomeIcon icon={faBug} className = "font-icon ibug"  /></div>
-                        <div className="exp-main-title">Evalix</div>
-                        <div className = "exp-description">Currently working as an intern in evalix working as a tester and in development</div>
+                        <div className="exp-main-title ebebas bebas">Evalix<div className = "exp-description">Currently working as an intern in evalix working as a tester and in development</div></div>
+                        
                     </div>
                 </div>
                 <div className = "details quote">

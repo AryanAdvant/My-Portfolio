@@ -273,7 +273,6 @@ body{
 
 .edu-container{
     display: flex;
-    border: 1px solid white;
     height: 700px;
     justify-content: space-between;
     margin-top: 50px;
@@ -281,7 +280,6 @@ body{
 }
 
 .details{
-    border: 1px solid red;
     width: 500px;
 }
 
@@ -507,6 +505,7 @@ body{
     height: 80px;
     margin-top: -14px;
     margin-left: 4px;
+    margin-right: 15px;
 }
 
 .ichrome{
@@ -553,3 +552,29 @@ body{
 .bebas{
     font-family: 'Bebas Neue', sans-serif;
 }
+
+.nbebas{
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.mbebas{
+    font-size: 30px;
+    margin-top: -15px;
+    margin-right: -17px;
+}
+
+.ebebas{
+    font-size: 30px;
+    margin-top: -15px;
+    margin-right: -17px;
+}
+
+.exp-description{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* .quote{
+    background: no-repeat center / cover url('./assets/quotebg.png');
+} */
