@@ -584,3 +584,19 @@ body{
     background: url('./assets/quotebg.jpg') center / cover no-repeat !important;
     background-color: transparent;
 }
+
+.quotation{
+    font-size: 100px;
+    font-family: 'Caveat', sans-serif;
+    margin: 50px auto auto auto;
+}
+
+.main-quote{
+    font-size: 20px;
+    margin: 50px;
+    margin-top:0px;
+}
+
+.credit{
+    font-style: italic;
+}

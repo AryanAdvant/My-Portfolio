@@ -82,7 +82,7 @@ export function Education(){
                 <div className = "details quote">
                     <div className = "quotation">"</div>
                     <div className = "main-quote">Life teaches us that no matter how ridiculous the odds may seem, within us resides the power to overcome these challenges and achieve something beautiful, that one day, we'll look back at where we started and be amazed by how far we've come.</div>
-                    <div className = "Credit">-Technoblade</div>
+                    <div className = "credit">-Technoblade</div>
                 </div>
             </div>
         </>
