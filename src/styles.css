@@ -578,3 +578,9 @@ body{
 /* .quote{
     background: no-repeat center / cover url('./assets/quotebg.png');
 } */
+
+/* Quote background override */
+.details.quote {
+    background: url('./assets/quotebg.jpg') center / cover no-repeat !important;
+    background-color: transparent;
+}
