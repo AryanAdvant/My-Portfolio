@@ -823,3 +823,10 @@ body{
         object-fit: contain;
     }
 }
+
+/* Keep the two text columns the same height as the laptop image */
+.work-details {
+    height: 100%;
+    align-self: stretch;
+    box-sizing: border-box;
+}
