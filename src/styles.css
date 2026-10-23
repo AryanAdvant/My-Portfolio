@@ -830,3 +830,58 @@ body{
     align-self: stretch;
     box-sizing: border-box;
 }
+
+
+/* Scale the work-section content to use the laptop image's height */
+@media (min-width: 901px) {
+    .work-intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .work-title {
+        font-size: clamp(44px, 4.2vw, 68px);
+        margin-bottom: 24px;
+    }
+
+    .work-description {
+        font-size: clamp(16px, 1.25vw, 19px);
+        line-height: 1.8;
+        margin-bottom: auto;
+    }
+
+    .work-status {
+        margin-top: auto;
+        padding-top: 28px;
+        font-size: clamp(11px, 0.9vw, 14px);
+    }
+
+    .work-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+    }
+
+    .work-contact .contact-details {
+        flex: 1;
+        min-height: 0;
+        padding: 14px 0;
+        gap: 16px;
+    }
+
+    .work-contact .contact-icon {
+        flex-basis: 44px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .work-contact .contact-label {
+        font-size: 12px;
+    }
+
+    .work-contact .contact-value {
+        font-size: clamp(14px, 1.1vw, 17px);
+        line-height: 1.5;
+    }
+}
