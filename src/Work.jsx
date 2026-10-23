@@ -1,6 +1,7 @@
 import "./styles.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faGithub, faLocationDot, faBriefcase } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faLocationDot, faBriefcase } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import laptop from "./assets/laptop.jpg"
 
 export function Work() {
