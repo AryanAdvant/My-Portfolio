@@ -1,5 +1,5 @@
 import "./styles.css"
-import mysticker from "./assets/mysticker.jpeg"
+import mysticker from "./assets/mysticker_transparent.png"
 
 function First() {
     return (
