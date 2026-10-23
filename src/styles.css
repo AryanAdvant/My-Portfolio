@@ -600,3 +600,7 @@ body{
 .credit{
     font-style: italic;
 }
+
+.work-container{
+    margin-top: 50px;
+}

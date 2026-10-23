@@ -3,7 +3,7 @@ import React from "react"
 import First from "./First"
 import Projects from "./Projects"
 import Education from "./Education"
-
+import Work from "./Work"
 
 function App()
 {
@@ -12,6 +12,7 @@ function App()
       <First />
       <Projects />
       <Education />
+      <Work />
     </>
   )
 }
