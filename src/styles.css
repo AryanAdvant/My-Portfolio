@@ -741,31 +741,6 @@ body{
     object-fit: contain;
 }
 
-@media (max-width: 900px) {
-    .work-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 24px;
-    }
-
-    .work-visual {
-        grid-column: 1 / -1;
-        max-height: 280px;
-    }
-}
-
-@media (max-width: 600px) {
-    .work-container {
-        grid-template-columns: 1fr;
-        gap: 24px;
-        margin-right: 12px;
-        margin-left: 12px;
-    }
-
-    .work-visual {
-        grid-column: auto;
-    }
-}
-
 .work-container {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.3fr);
     width: 100%;
@@ -791,39 +766,6 @@ body{
     object-fit: cover;
     object-position: center;
 }
-
-@media (max-width: 900px) {
-    .work-container {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .work-visual {
-        grid-column: 1 / -1;
-        height: clamp(220px, 45vw, 420px);
-    }
-
-    .work-visual img {
-        object-fit: contain;
-    }
-}
-
-@media (max-width: 600px) {
-    .work-container {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 20px;
-    }
-
-    .work-visual {
-        grid-column: auto;
-        height: 70vw;
-        max-height: 380px;
-    }
-
-    .work-visual img {
-        object-fit: contain;
-    }
-}
-
 
 /* Scale the text columns to the laptop image */
 .work-intro {
