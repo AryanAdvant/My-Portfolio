@@ -667,6 +667,7 @@ body{
 .work-contact {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .contact-details {
@@ -775,8 +776,9 @@ body{
 }
 
 .work-title {
-    font-size: 68px;
-    margin-bottom: 24px;
+    font-size: 90px;
+    margin-bottom: 14px;
+    margin-top: 50px;
 }
 
 .work-description {
